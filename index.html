@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Chicago Health Disparities Center</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="currentprojects.html">CURRENT PROJECTS</a></li>
+                    <li><a href="finishedprojects.html">FINISHED PROJECTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>The CHDC'S Mission</h1>
+        <p>The mission of the Chicago Health Disparities Center (CHDC) is to engage people with serious mental illness in community-based participatory research efforts that will reduce racial healthcare inequities and promote well-being.</p>
+        <a href="about.html" class="KnowMore-btn">Want to know more?</a>
+    
+    
+    </div>
+
+    </section>
+
+    <!----------NEED TO MODIFY------------>
+
+<section class="course" id="course">
+    <h1>A Little About Us</h1>
+    <p>Here is a small section for you to learn a little more about who we are and what we do.</p>
+
+    <div class="course-row">
+        <div class="course-col">
+            <h3>Funding</h3>
+            <p>The Chicago Health Disparities Center is a federally funded research center at the Illinois Institute of Technology.</p>
+        </div>
+        <div class="course-col">
+            <h3>Our mission</h3>
+            <p>The mission of the Chicago Health Disparities Center (CHDC) is to engage people with serious mental illness in community-based participatory research efforts that will reduce racial healthcare inequities and promote well-being.</p>
+        </div>
+        <div class="course-col">
+            <h3>Location</h3>
+            <p>Address<br>3424 S. State Street<br>First Floor<br>Chicago, IL 60616</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!------------ IMAGES OF WHAT EVER -------------->
+
+<section class="campus">
+    <h1>Project Galery</h1>
+    <p>Here is a small section for you to see about a couple of our projects.</p>
+
+    <div class="campus-row">
+        <div class="campus-col">
+            <img src="img/inspiringchangeteampic3-3.jpg">
+            <div class="layer">
+                <h3>CBPR LEADERSHIP TRAINING</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="img/africanAmericanPeerNavigator_homeless.jpg">
+            <div class="layer">
+                <h3>AFRICAN AMERICAN <br>PEER NAVIGATORS</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="img/latinoPeerNavigator.png">
+            <div class="layer">
+                <h3>LATINX PEER NAVIGATORS</h3>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!------------ CONTACT US -------------->
+
+<section class="cta">
+    <h1>Learn about a couple of ongoing projects that<br> our team is working on!</h1>
+    <a href="currentprojects.html" class="cta-btn">Learn more!</a>
+
+</section>
+
+
+
+
+<!------------ Footer -------------->
+
+<section class="footer">
+    <h4>Find Us</h4>
+    <p>The Chicago Health Disparities Center is a federally funded research center at the Illinois Institute of Technology.</p>
+    <p>Address<br>3424 S. State Street<br>First Floor<br>Chicago, IL 60616</p>
+   
+    <div class="icons">
+        <a href="https://www.google.com/maps/dir//3424+South+State+Street,+Chicago,+IL/@41.8322342,-87.6294118,17z/data=!3m2!4b1!5s0x880e2cba942a6835:0xbfe775d05291b409!4m9!4m8!1m0!1m5!1m1!1s0x880e2c0dbb0f62c9:0x4e26a92be582bc8b!2m2!1d-87.6272231!2d41.8322302!3e3"><i class="fa fa-map-marker"></i></a>
+        <a href="https://www.instagram.com/illinoistech/"><i class="fa fa-instagram" onclick=""></i></a>
+        <a href="https://www.facebook.com/illinoistech/"><i class="fa fa-facebook" onclick=""></i></a>
+        <a href="https://twitter.com/illinoistech"><i class="fa fa-twitter" onclick=""></i></a>
+        <a href="https://www.linkedin.com/school/illinois-tech/"><i class="fa fa-linkedin" onclick=""></i></a>
+    </div>
+
+</section>
+
+
+
+<!-------Javascript for menu toggling------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
+    
